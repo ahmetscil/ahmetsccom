@@ -4,30 +4,29 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _a3db52a6 = () => interopDefault(import('../pages/basket/index.vue' /* webpackChunkName: "pages/basket/index" */))
-const _cf6a1c28 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _16131af8 = () => interopDefault(import('../pages/index2.vue' /* webpackChunkName: "pages/index2" */))
-const _6e1b555f = () => interopDefault(import('../pages/maintenance.vue' /* webpackChunkName: "pages/maintenance" */))
-const _67d3ddcb = () => interopDefault(import('../pages/products/index.vue' /* webpackChunkName: "pages/products/index" */))
-const _abdddfe2 = () => interopDefault(import('../pages/search/index.vue' /* webpackChunkName: "pages/search/index" */))
-const _7bda4efc = () => interopDefault(import('../pages/auth/forgot-password.vue' /* webpackChunkName: "pages/auth/forgot-password" */))
-const _ad09e3b4 = () => interopDefault(import('../pages/auth/login.vue' /* webpackChunkName: "pages/auth/login" */))
-const _656490f6 = () => interopDefault(import('../pages/auth/register.vue' /* webpackChunkName: "pages/auth/register" */))
-const _3d36a86c = () => interopDefault(import('../pages/auth/reset-password.vue' /* webpackChunkName: "pages/auth/reset-password" */))
-const _0fa0640f = () => interopDefault(import('../pages/basket/address.vue' /* webpackChunkName: "pages/basket/address" */))
-const _763f68db = () => interopDefault(import('../pages/basket/confirm.vue' /* webpackChunkName: "pages/basket/confirm" */))
-const _1c4f163a = () => interopDefault(import('../pages/basket/error.vue' /* webpackChunkName: "pages/basket/error" */))
-const _161f689e = () => interopDefault(import('../pages/basket/success.vue' /* webpackChunkName: "pages/basket/success" */))
-const _c20a04b8 = () => interopDefault(import('../pages/me/my-addresses.vue' /* webpackChunkName: "pages/me/my-addresses" */))
-const _781b92d3 = () => interopDefault(import('../pages/me/my-orders.vue' /* webpackChunkName: "pages/me/my-orders" */))
-const _01e9c2ab = () => interopDefault(import('../pages/me/my-profile.vue' /* webpackChunkName: "pages/me/my-profile" */))
-const _14d57f91 = () => interopDefault(import('../pages/me/my-settings.vue' /* webpackChunkName: "pages/me/my-settings" */))
-const _5ca378e0 = () => interopDefault(import('../pages/collection/_url/index.vue' /* webpackChunkName: "pages/collection/_url/index" */))
-const _6ecd1eb4 = () => interopDefault(import('../pages/product/_product.vue' /* webpackChunkName: "pages/product/_product" */))
-const _1b1234f9 = () => interopDefault(import('../pages/products/_collection/index.vue' /* webpackChunkName: "pages/products/_collection/index" */))
-const _2e02dd1c = () => interopDefault(import('../pages/products/_collection/_product/index.vue' /* webpackChunkName: "pages/products/_collection/_product/index" */))
-const _39728a9e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-const _60475817 = () => interopDefault(import('../pages/_url/index.vue' /* webpackChunkName: "pages/_url/index" */))
+const _7c6cc2ae = () => interopDefault(import('../pages/basket/index.vue' /* webpackChunkName: "pages/basket/index" */))
+const _5a24c720 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _2ac5c43a = () => interopDefault(import('../pages/maintenance.vue' /* webpackChunkName: "pages/maintenance" */))
+const _6ad916c7 = () => interopDefault(import('../pages/products/index.vue' /* webpackChunkName: "pages/products/index" */))
+const _846f4fea = () => interopDefault(import('../pages/search/index.vue' /* webpackChunkName: "pages/search/index" */))
+const _1cf0647e = () => interopDefault(import('../pages/auth/forgot-password.vue' /* webpackChunkName: "pages/auth/forgot-password" */))
+const _211c2522 = () => interopDefault(import('../pages/auth/login.vue' /* webpackChunkName: "pages/auth/login" */))
+const _6ed36f0c = () => interopDefault(import('../pages/auth/register.vue' /* webpackChunkName: "pages/auth/register" */))
+const _da8ca620 = () => interopDefault(import('../pages/auth/reset-password.vue' /* webpackChunkName: "pages/auth/reset-password" */))
+const _12a59d0b = () => interopDefault(import('../pages/basket/address.vue' /* webpackChunkName: "pages/basket/address" */))
+const _7944a1d7 = () => interopDefault(import('../pages/basket/confirm.vue' /* webpackChunkName: "pages/basket/confirm" */))
+const _058fbcdf = () => interopDefault(import('../pages/basket/error.vue' /* webpackChunkName: "pages/basket/error" */))
+const _1924a19a = () => interopDefault(import('../pages/basket/success.vue' /* webpackChunkName: "pages/basket/success" */))
+const _06c637b0 = () => interopDefault(import('../pages/me/my-addresses.vue' /* webpackChunkName: "pages/me/my-addresses" */))
+const _e85a4a62 = () => interopDefault(import('../pages/me/my-orders.vue' /* webpackChunkName: "pages/me/my-orders" */))
+const _651b7a2f = () => interopDefault(import('../pages/me/my-profile.vue' /* webpackChunkName: "pages/me/my-profile" */))
+const _17dab88d = () => interopDefault(import('../pages/me/my-settings.vue' /* webpackChunkName: "pages/me/my-settings" */))
+const _5afb91d8 = () => interopDefault(import('../pages/collection/_url/index.vue' /* webpackChunkName: "pages/collection/_url/index" */))
+const _752feea0 = () => interopDefault(import('../pages/product/_product.vue' /* webpackChunkName: "pages/product/_product" */))
+const _30fdd3f5 = () => interopDefault(import('../pages/products/_collection/index.vue' /* webpackChunkName: "pages/products/_collection/index" */))
+const _5c9459a0 = () => interopDefault(import('../pages/products/_collection/_product/index.vue' /* webpackChunkName: "pages/products/_collection/_product/index" */))
+const _e9f3f3bc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _502f21da = () => interopDefault(import('../pages/_url/index.vue' /* webpackChunkName: "pages/_url/index" */))
 
 const emptyFn = () => {}
 
@@ -42,100 +41,96 @@ export const routerOptions = {
 
   routes: [{
     path: "/basket",
-    component: _a3db52a6,
-    name: "basket___en___en___en___en___en___en"
+    component: _7c6cc2ae,
+    name: "basket___en"
   }, {
     path: "/contact",
-    component: _cf6a1c28,
-    name: "contact___en___en___en___en___en___en"
-  }, {
-    path: "/index2",
-    component: _16131af8,
-    name: "index2___en___en___en___en___en___en"
+    component: _5a24c720,
+    name: "contact___en"
   }, {
     path: "/maintenance",
-    component: _6e1b555f,
-    name: "maintenance___en___en___en___en___en___en"
+    component: _2ac5c43a,
+    name: "maintenance___en"
   }, {
     path: "/products",
-    component: _67d3ddcb,
-    name: "products___en___en___en___en___en___en"
+    component: _6ad916c7,
+    name: "products___en"
   }, {
     path: "/search",
-    component: _abdddfe2,
-    name: "search___en___en___en___en___en___en"
+    component: _846f4fea,
+    name: "search___en"
   }, {
     path: "/auth/forgot-password",
-    component: _7bda4efc,
-    name: "auth-forgot-password___en___en___en___en___en___en"
+    component: _1cf0647e,
+    name: "auth-forgot-password___en"
   }, {
     path: "/auth/login",
-    component: _ad09e3b4,
-    name: "auth-login___en___en___en___en___en___en"
+    component: _211c2522,
+    name: "auth-login___en"
   }, {
     path: "/auth/register",
-    component: _656490f6,
-    name: "auth-register___en___en___en___en___en___en"
+    component: _6ed36f0c,
+    name: "auth-register___en"
   }, {
     path: "/auth/reset-password",
-    component: _3d36a86c,
-    name: "auth-reset-password___en___en___en___en___en___en"
+    component: _da8ca620,
+    name: "auth-reset-password___en"
   }, {
     path: "/basket/address",
-    component: _0fa0640f,
-    name: "basket-address___en___en___en___en___en___en"
+    component: _12a59d0b,
+    name: "basket-address___en"
   }, {
     path: "/basket/confirm",
-    component: _763f68db,
-    name: "basket-confirm___en___en___en___en___en___en"
+    component: _7944a1d7,
+    name: "basket-confirm___en"
   }, {
     path: "/basket/error",
-    component: _1c4f163a,
-    name: "basket-error___en___en___en___en___en___en"
+    component: _058fbcdf,
+    name: "basket-error___en"
   }, {
     path: "/basket/success",
-    component: _161f689e,
-    name: "basket-success___en___en___en___en___en___en"
+    component: _1924a19a,
+    name: "basket-success___en"
   }, {
     path: "/me/my-addresses",
-    component: _c20a04b8,
-    name: "me-my-addresses___en___en___en___en___en___en"
+    component: _06c637b0,
+    name: "me-my-addresses___en"
   }, {
     path: "/me/my-orders",
-    component: _781b92d3,
-    name: "me-my-orders___en___en___en___en___en___en"
+    component: _e85a4a62,
+    name: "me-my-orders___en"
   }, {
     path: "/me/my-profile",
-    component: _01e9c2ab,
-    name: "me-my-profile___en___en___en___en___en___en"
+    component: _651b7a2f,
+    name: "me-my-profile___en"
   }, {
     path: "/me/my-settings",
-    component: _14d57f91,
-    name: "me-my-settings___en___en___en___en___en___en"
+    component: _17dab88d,
+    name: "me-my-settings___en"
   }, {
     path: "/collection/:url",
-    component: _5ca378e0,
-    name: "collection-url___en___en___en___en___en___en"
+    component: _5afb91d8,
+    name: "collection-url___en"
   }, {
     path: "/product/:product?",
-    component: _6ecd1eb4,
-    name: "product-product___en___en___en___en___en___en"
+    component: _752feea0,
+    name: "product-product___en"
   }, {
     path: "/products/:collection",
-    component: _1b1234f9,
-    name: "products-collection___en___en___en___en___en___en"
+    component: _30fdd3f5,
+    name: "products-collection___en"
   }, {
     path: "/products/:collection/:product",
-    component: _2e02dd1c,
-    name: "products-collection-product___en___en___en___en___en___en"
+    component: _5c9459a0,
+    name: "products-collection-product___en"
   }, {
     path: "/",
-    component: _39728a9e,
-    name: "index___en___en___en___en___en___en"
+    component: _e9f3f3bc,
+    name: "index___en"
   }, {
     path: "/:url",
-    component: _60475817,
-    name: "url___en___en___en___en___en___en"
+    component: _502f21da,
+    name: "url___en"
   }],
 
   fallback: false

@@ -1,63 +1,28 @@
 <template>
-  <div data-scroll class="page page--layout-2">
-    <div class="content content--full content--alternate">
-      <div class="content__item content__item--wide">
-        <span class="content__item-number">01</span>
-        <div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/17.jpg);"></div></div>
-        <div class="content__item-deco"></div>
-        <h2 class="content__item-title">Oh</h2>
-        <p class="content__item-description">Little trees and bushes grow however makes them happy.</p>
-      </div>
-      <div class="content__item content__item--wide">
-        <span class="content__item-number">02</span>
-        <div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/21.jpg);"></div></div>
-        <div class="content__item-deco"></div>
-        <h2 class="content__item-title">Ri</h2>
-        <p class="content__item-description">We don't have to be committed. We are just playing here.</p>
-      </div>
-      <div class="content__item content__item--wide">
-        <span class="content__item-number">03</span>
-        <div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/19.jpg);"></div></div>
-        <div class="content__item-deco"></div>
-        <h2 class="content__item-title">Nj</h2>
-        <p class="content__item-description">I thought today we would do a happy little picture.</p>
-      </div>
-      <div class="content__item content__item--wide">
-        <span class="content__item-number">04</span>
-        <div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/20.jpg);"></div></div>
-        <div class="content__item-deco"></div>
-        <h2 class="content__item-title">Mo</h2>
-        <p class="content__item-description">Nature is so fantastic, enjoy it. Let it make you happy.</p>
-      </div>
-      <div class="content__item content__item--wide">
-        <span class="content__item-number">05</span>
-        <div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/18.jpg);"></div></div>
-        <div class="content__item-deco"></div>
-        <h2 class="content__item-title">Ne</h2>
-        <p class="content__item-description">We need a shadow side and a highlight side.</p>
-      </div>
-      <div class="content__item content__item--wide">
-        <span class="content__item-number">06</span>
-        <div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/16.jpg);"></div></div>
-        <div class="content__item-deco"></div>
-        <h2 class="content__item-title">Wy</h2>
-        <p class="content__item-description">We'll put some happy little leaves here and there.</p>
-      </div>
-      <div class="content__item content__item--wide">
-        <span class="content__item-number">07</span>
-        <div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/11.jpg);"></div></div>
-        <div class="content__item-deco"></div>
-        <h2 class="content__item-title">Tx</h2>
-        <p class="content__item-description">With something so strong, a little bit can go a long way.</p>
-      </div>
-      <div class="content__item content__item--wide">
-        <span class="content__item-number">08</span>
-        <div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/4.jpg);"></div></div>
-        <div class="content__item-deco"></div>
-        <h2 class="content__item-title">Sd</h2>
-        <p class="content__item-description">There are no limits in this world.</p>
-      </div>
-    </div>
+  <div>
+    <b-container fluid="md">
+      <b-row>
+        <b-col cols="12" class="asc_pariette-h75">
+          <SectionBox v-if="showContent" :html="homeSection1.content" />
+        </b-col>
+        <b-col cols="12" class="asc_pariette-h50">
+          <SectionBox v-if="showContent" :html="homeSection2.content" />
+        </b-col>
+        <b-col cols="12" class="asc_pariette-h50">
+          <SectionBox v-if="showContent" :html="homeSection3.content" />
+        </b-col>
+      </b-row>
+    </b-container>
+    <b-container fluid>
+      <b-row>
+        <b-col cols="12">
+          <Marquee :list="navlist" />
+          <!-- <div class="asc_pariette-stroke">
+            <span>DESIGN</span>
+          </div> -->
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 <script>
@@ -98,6 +63,7 @@ export default {
   mounted () {
     this.$nextTick(() => {
       this.$nuxt.$loading.start()
+      this.$nuxt.$loading.finish()
       this.showContent = false
       if (this.count === 3) {
         setTimeout(() => {
@@ -125,4 +91,34 @@ export default {
 }
 </script>
 <style lang="sass">
+  .asc_pariette-stroke
+    width: 100%
+    overflow: hidden
+    padding: 40px 0
+    font-family: 'Nunito', sans-serif
+    font-weight: 900
+    &:nth-child(1)
+      text-indent: 2%
+    &:nth-child(2)
+      text-indent: 15%
+    &:nth-child(3)
+      text-indent: 2%
+    &:nth-child(4)
+      text-indent: 10%
+    & span
+      white-space: nowrap
+      letter-spacing: 10px
+      -webkit-text-stroke: 1px black
+      color: transparent
+      font-size: 150px
+      line-height: 1
+      transition: .3s
+      padding: 50px 0
+    &:hover
+      & span
+        -webkit-text-stroke: 1px transparent
+        color: #fff
+        text-shadow: 0 0 10px #ccc
+        letter-spacing: -10px
+        transition: .3s
 </style>

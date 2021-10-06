@@ -1,4 +1,3 @@
-const apiURL = process.env.PARIETTE_API_URL
 export default {
   target: 'server',
   server: {
@@ -83,7 +82,7 @@ export default {
     }
   },
   axios: {
-    baseURL: apiURL
+    baseURL: process.env.PARIETTE_API_URL
   },
   pwa: {
     manifest: {
@@ -102,7 +101,7 @@ export default {
   //   xmlNs: 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
   //   path: '/sitemap.xml',
   //   routes: async () => {
-  //     const data = await axios.get(`${apiURL}p/sitemap`)
+  //     const data = await axios.get(`${process.env.PARIETTE_API_URL}p/sitemap`)
   //     return data
   //   }
   // },
@@ -116,7 +115,7 @@ export default {
     strategies: {
       laravelJWT: {
         provider: 'laravel/jwt',
-        url: apiURL,
+        url: process.env.PARIETTE_API_URL,
         endpoints: {
           login: { url: 'auth/login', method: 'post' },
           refresh: { url: 'auth/refresh', method: 'post' },

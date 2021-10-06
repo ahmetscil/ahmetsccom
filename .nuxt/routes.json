@@ -1,170 +1,140 @@
 [
   {
-    "name": "basket___en___en___en___en___en___en",
+    "name": "basket___en",
     "path": "/basket",
-    "component": "/Users/ahmets.cil/git/canvas/pages/basket/index.vue",
-    "chunkName": "pages/basket/index",
-    "_name": "_a3db52a6"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/basket/index.vue",
+    "chunkName": "pages/basket/index"
   },
   {
-    "name": "contact___en___en___en___en___en___en",
+    "name": "contact___en",
     "path": "/contact",
-    "component": "/Users/ahmets.cil/git/canvas/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_cf6a1c28"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/contact.vue",
+    "chunkName": "pages/contact"
   },
   {
-    "name": "index2___en___en___en___en___en___en",
-    "path": "/index2",
-    "component": "/Users/ahmets.cil/git/canvas/pages/index2.vue",
-    "chunkName": "pages/index2",
-    "_name": "_16131af8"
-  },
-  {
-    "name": "maintenance___en___en___en___en___en___en",
+    "name": "maintenance___en",
     "path": "/maintenance",
-    "component": "/Users/ahmets.cil/git/canvas/pages/maintenance.vue",
-    "chunkName": "pages/maintenance",
-    "_name": "_6e1b555f"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/maintenance.vue",
+    "chunkName": "pages/maintenance"
   },
   {
-    "name": "products___en___en___en___en___en___en",
+    "name": "products___en",
     "path": "/products",
-    "component": "/Users/ahmets.cil/git/canvas/pages/products/index.vue",
-    "chunkName": "pages/products/index",
-    "_name": "_67d3ddcb"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/products/index.vue",
+    "chunkName": "pages/products/index"
   },
   {
-    "name": "search___en___en___en___en___en___en",
+    "name": "search___en",
     "path": "/search",
-    "component": "/Users/ahmets.cil/git/canvas/pages/search/index.vue",
-    "chunkName": "pages/search/index",
-    "_name": "_abdddfe2"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/search/index.vue",
+    "chunkName": "pages/search/index"
   },
   {
-    "name": "auth-forgot-password___en___en___en___en___en___en",
+    "name": "auth-forgot-password___en",
     "path": "/auth/forgot-password",
-    "component": "/Users/ahmets.cil/git/canvas/pages/auth/forgot-password.vue",
-    "chunkName": "pages/auth/forgot-password",
-    "_name": "_7bda4efc"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/auth/forgot-password.vue",
+    "chunkName": "pages/auth/forgot-password"
   },
   {
-    "name": "auth-login___en___en___en___en___en___en",
+    "name": "auth-login___en",
     "path": "/auth/login",
-    "component": "/Users/ahmets.cil/git/canvas/pages/auth/login.vue",
-    "chunkName": "pages/auth/login",
-    "_name": "_ad09e3b4"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/auth/login.vue",
+    "chunkName": "pages/auth/login"
   },
   {
-    "name": "auth-register___en___en___en___en___en___en",
+    "name": "auth-register___en",
     "path": "/auth/register",
-    "component": "/Users/ahmets.cil/git/canvas/pages/auth/register.vue",
-    "chunkName": "pages/auth/register",
-    "_name": "_656490f6"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/auth/register.vue",
+    "chunkName": "pages/auth/register"
   },
   {
-    "name": "auth-reset-password___en___en___en___en___en___en",
+    "name": "auth-reset-password___en",
     "path": "/auth/reset-password",
-    "component": "/Users/ahmets.cil/git/canvas/pages/auth/reset-password.vue",
-    "chunkName": "pages/auth/reset-password",
-    "_name": "_3d36a86c"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/auth/reset-password.vue",
+    "chunkName": "pages/auth/reset-password"
   },
   {
-    "name": "basket-address___en___en___en___en___en___en",
+    "name": "basket-address___en",
     "path": "/basket/address",
-    "component": "/Users/ahmets.cil/git/canvas/pages/basket/address.vue",
-    "chunkName": "pages/basket/address",
-    "_name": "_0fa0640f"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/basket/address.vue",
+    "chunkName": "pages/basket/address"
   },
   {
-    "name": "basket-confirm___en___en___en___en___en___en",
+    "name": "basket-confirm___en",
     "path": "/basket/confirm",
-    "component": "/Users/ahmets.cil/git/canvas/pages/basket/confirm.vue",
-    "chunkName": "pages/basket/confirm",
-    "_name": "_763f68db"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/basket/confirm.vue",
+    "chunkName": "pages/basket/confirm"
   },
   {
-    "name": "basket-error___en___en___en___en___en___en",
+    "name": "basket-error___en",
     "path": "/basket/error",
-    "component": "/Users/ahmets.cil/git/canvas/pages/basket/error.vue",
-    "chunkName": "pages/basket/error",
-    "_name": "_1c4f163a"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/basket/error.vue",
+    "chunkName": "pages/basket/error"
   },
   {
-    "name": "basket-success___en___en___en___en___en___en",
+    "name": "basket-success___en",
     "path": "/basket/success",
-    "component": "/Users/ahmets.cil/git/canvas/pages/basket/success.vue",
-    "chunkName": "pages/basket/success",
-    "_name": "_161f689e"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/basket/success.vue",
+    "chunkName": "pages/basket/success"
   },
   {
-    "name": "me-my-addresses___en___en___en___en___en___en",
+    "name": "me-my-addresses___en",
     "path": "/me/my-addresses",
-    "component": "/Users/ahmets.cil/git/canvas/pages/me/my-addresses.vue",
-    "chunkName": "pages/me/my-addresses",
-    "_name": "_c20a04b8"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/me/my-addresses.vue",
+    "chunkName": "pages/me/my-addresses"
   },
   {
-    "name": "me-my-orders___en___en___en___en___en___en",
+    "name": "me-my-orders___en",
     "path": "/me/my-orders",
-    "component": "/Users/ahmets.cil/git/canvas/pages/me/my-orders.vue",
-    "chunkName": "pages/me/my-orders",
-    "_name": "_781b92d3"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/me/my-orders.vue",
+    "chunkName": "pages/me/my-orders"
   },
   {
-    "name": "me-my-profile___en___en___en___en___en___en",
+    "name": "me-my-profile___en",
     "path": "/me/my-profile",
-    "component": "/Users/ahmets.cil/git/canvas/pages/me/my-profile.vue",
-    "chunkName": "pages/me/my-profile",
-    "_name": "_01e9c2ab"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/me/my-profile.vue",
+    "chunkName": "pages/me/my-profile"
   },
   {
-    "name": "me-my-settings___en___en___en___en___en___en",
+    "name": "me-my-settings___en",
     "path": "/me/my-settings",
-    "component": "/Users/ahmets.cil/git/canvas/pages/me/my-settings.vue",
-    "chunkName": "pages/me/my-settings",
-    "_name": "_14d57f91"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/me/my-settings.vue",
+    "chunkName": "pages/me/my-settings"
   },
   {
-    "name": "collection-url___en___en___en___en___en___en",
+    "name": "collection-url___en",
     "path": "/collection/:url",
-    "component": "/Users/ahmets.cil/git/canvas/pages/collection/_url/index.vue",
-    "chunkName": "pages/collection/_url/index",
-    "_name": "_5ca378e0"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/collection/_url/index.vue",
+    "chunkName": "pages/collection/_url/index"
   },
   {
-    "name": "product-product___en___en___en___en___en___en",
+    "name": "product-product___en",
     "path": "/product/:product?",
-    "component": "/Users/ahmets.cil/git/canvas/pages/product/_product.vue",
-    "chunkName": "pages/product/_product",
-    "_name": "_6ecd1eb4"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/product/_product.vue",
+    "chunkName": "pages/product/_product"
   },
   {
-    "name": "products-collection___en___en___en___en___en___en",
+    "name": "products-collection___en",
     "path": "/products/:collection",
-    "component": "/Users/ahmets.cil/git/canvas/pages/products/_collection/index.vue",
-    "chunkName": "pages/products/_collection/index",
-    "_name": "_1b1234f9"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/products/_collection/index.vue",
+    "chunkName": "pages/products/_collection/index"
   },
   {
-    "name": "products-collection-product___en___en___en___en___en___en",
+    "name": "products-collection-product___en",
     "path": "/products/:collection/:product",
-    "component": "/Users/ahmets.cil/git/canvas/pages/products/_collection/_product/index.vue",
-    "chunkName": "pages/products/_collection/_product/index",
-    "_name": "_2e02dd1c"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/products/_collection/_product/index.vue",
+    "chunkName": "pages/products/_collection/_product/index"
   },
   {
-    "name": "index___en___en___en___en___en___en",
+    "name": "index___en",
     "path": "/",
-    "component": "/Users/ahmets.cil/git/canvas/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_39728a9e"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/index.vue",
+    "chunkName": "pages/index"
   },
   {
-    "name": "url___en___en___en___en___en___en",
+    "name": "url___en",
     "path": "/:url",
-    "component": "/Users/ahmets.cil/git/canvas/pages/_url/index.vue",
-    "chunkName": "pages/_url/index",
-    "_name": "_60475817"
+    "component": "/Users/ahmets.cil/git/canvasteknolojicom/pages/_url/index.vue",
+    "chunkName": "pages/_url/index"
   }
 ]

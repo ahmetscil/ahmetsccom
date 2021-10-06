@@ -63,6 +63,18 @@ export default {
   padding: 0 5vw;
   font-family: 'Nunito', sans-serif;
 }
+.menu__item:nth-child(1) {
+  text-indent: 0vw;
+}
+.menu__item:nth-child(2) {
+  text-indent: 20vw;
+}
+.menu__item:nth-child(3) {
+  text-indent: 10vw;
+}
+.menu__item:nth-child(4) {
+  text-indent: 30vw;
+}
 
 .menu__item-link {
   white-space: nowrap;
@@ -82,17 +94,6 @@ export default {
   text-fill-color: transparent;
   color: transparent;
   transition: opacity 0.4s;
-}
-
-.menu__item-link::before {
-  all: initial;
-  font-family: sofia-pro, sans-serif;
-  counter-increment: menu;
-  content:  counter(menu);
-  position: absolute;
-  bottom: 60%;
-  left: 0;
-  pointer-events: none;
 }
 
 .menu__item-link:hover {
