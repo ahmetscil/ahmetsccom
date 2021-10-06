@@ -65,12 +65,12 @@ export default {
       logHtml: true
     }]
   ],
-  'google-gtag': {
-    id: process.env.GOOGLE_GTAG
-  },
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS
-  },
+  // 'google-gtag': {
+  //   id: process.env.GOOGLE_GTAG
+  // },
+  // googleAnalytics: {
+  //   id: process.env.GOOGLE_ANALYTICS
+  // },
   googleFonts: {
     families: {
       'Titillium+Web': {
@@ -89,14 +89,9 @@ export default {
       lang: process.env.PARIETTE_SITE_LANG
     }
   },
-  maintenance: {
-    enabled: !!process.env.PARIETTE_MAINTENANCE,
-    path: '/maintenance',
-    matcher: /^\/admin/
-  },
-  optimizeImages: {
-    optimizeImages: true
-  },
+  // optimizeImages: {
+  //   optimizeImages: true
+  // },
   // sitemap: {
   //   xmlNs: 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
   //   path: '/sitemap.xml',

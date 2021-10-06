@@ -42,22 +42,22 @@ export default function (ctx, inject) {
   // Register strategies
   // laravelJWT
   $auth.registerStrategy('laravelJWT', new LaravelJWTScheme($auth, {
-  "url": "https://us-live.pariette.link/api/JHvCJ4zc/",
+  "url": "https://us-live.pariette.link/api/SOuMulcX/",
   "endpoints": {
     "login": {
-      "url": "https://us-live.pariette.link/api/JHvCJ4zc/auth/login",
+      "url": "https://us-live.pariette.link/api/SOuMulcX/auth/login",
       "method": "post"
     },
     "refresh": {
-      "url": "https://us-live.pariette.link/api/JHvCJ4zc/auth/refresh",
+      "url": "https://us-live.pariette.link/api/SOuMulcX/auth/refresh",
       "method": "post"
     },
     "logout": {
-      "url": "https://us-live.pariette.link/api/JHvCJ4zc/auth/logout",
+      "url": "https://us-live.pariette.link/api/SOuMulcX/auth/logout",
       "method": "post"
     },
     "user": {
-      "url": "https://us-live.pariette.link/api/JHvCJ4zc/auth/me",
+      "url": "https://us-live.pariette.link/api/SOuMulcX/auth/me",
       "method": "get"
     }
   },
