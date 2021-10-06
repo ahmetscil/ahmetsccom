@@ -30,11 +30,10 @@ export default {
   loading: '~/components/Loading.vue',
   components: true,
   buildModules: [
-    '@nuxtjs/eslint-module',
     // '@nuxtjs/google-analytics',
-    '@nuxtjs/google-fonts',
     // '@nuxtjs/html-validator',
-    '@aceforth/nuxt-optimized-images'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/google-fonts'
   ],
   modules: [
     'bootstrap-vue/nuxt',
