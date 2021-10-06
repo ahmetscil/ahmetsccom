@@ -3,18 +3,15 @@ import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } fr
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
 import NuxtError from './components/nuxt-error.vue'
-import NuxtLoading from '~/components/Loading.vue'
+import NuxtLoading from './components/nuxt-loading.vue'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 
 import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
 
-import _2d217e9e from '../layouts/auth.vue'
-import _6b56f53c from '../layouts/basket.vue'
-import _6f6c098b from '../layouts/default.vue'
-import _6c337422 from '../layouts/my.vue'
+import _6f6c098b from './layouts/default.vue'
 
-const layouts = { "_auth": sanitizeComponent(_2d217e9e),"_basket": sanitizeComponent(_6b56f53c),"_default": sanitizeComponent(_6f6c098b),"_my": sanitizeComponent(_6c337422) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b) }
 
 export default {
   render (h, props) {

@@ -1,5 +1,5 @@
 {
-  "title": "luxesurface",
+  "title": "asc",
   "meta": [
     {
       "hid": "charset",
@@ -18,7 +18,12 @@
     {
       "hid": "apple-mobile-web-app-title",
       "name": "apple-mobile-web-app-title",
-      "content": "luxesurface"
+      "content": "asc"
+    },
+    {
+      "hid": "description",
+      "name": "description",
+      "content": "## Build Setup"
     },
     {
       "hid": "og:type",
@@ -30,30 +35,36 @@
       "hid": "og:title",
       "name": "og:title",
       "property": "og:title",
-      "content": "luxesurface"
+      "content": "asc"
     },
     {
       "hid": "og:site_name",
       "name": "og:site_name",
       "property": "og:site_name",
-      "content": "luxesurface"
+      "content": "asc"
+    },
+    {
+      "hid": "og:description",
+      "name": "og:description",
+      "property": "og:description",
+      "content": "## Build Setup"
     }
   ],
   "link": [
     {
       "hid": "shortcut-icon",
       "rel": "shortcut icon",
-      "href": "/_nuxt/icons/icon_64x64.5f6a36.png"
+      "href": "/_nuxt/icons/icon_64x64.e3e9fb.png"
     },
     {
       "hid": "apple-touch-icon",
       "rel": "apple-touch-icon",
-      "href": "/_nuxt/icons/icon_512x512.5f6a36.png",
+      "href": "/_nuxt/icons/icon_512x512.e3e9fb.png",
       "sizes": "512x512"
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.f81412b2.json",
+      "href": "/_nuxt/manifest.809fcd86.json",
       "hid": "manifest"
     }
   ],

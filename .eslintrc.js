@@ -5,7 +5,8 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false
   },
   extends: [
     '@nuxtjs',
@@ -13,9 +14,6 @@ module.exports = {
   ],
   plugins: [
   ],
-  rules: {
-    'no-console': 'off',
-    'no-debugger': 'off',
-    'vue/no-v-html': 'off'
-  }
+  // add your custom rules here
+  rules: {}
 }
