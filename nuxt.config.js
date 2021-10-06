@@ -31,7 +31,7 @@ export default {
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-analytics',
+    // '@nuxtjs/google-analytics',
     '@nuxtjs/google-fonts',
     // '@nuxtjs/html-validator',
     '@aceforth/nuxt-optimized-images'
